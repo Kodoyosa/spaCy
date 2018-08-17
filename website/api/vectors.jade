@@ -430,7 +430,7 @@ p Serialize the current state to a binary string.
 p Load state from a binary string.
 
 +aside-code("Example").
-    fron spacy.vectors import Vectors
+    from spacy.vectors import Vectors
     vectors_bytes = vectors.to_bytes()
     new_vectors = Vectors(StringStore())
     new_vectors.from_bytes(vectors_bytes)
