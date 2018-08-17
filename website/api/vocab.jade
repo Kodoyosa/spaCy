@@ -364,7 +364,7 @@ p Serialize the current state to a binary string.
 p Load state from a binary string.
 
 +aside-code("Example").
-    fron spacy.vocab import Vocab
+    from spacy.vocab import Vocab
     vocab_bytes = nlp.vocab.to_bytes()
     vocab = Vocab()
     vocab.from_bytes(vocab_bytes)
